@@ -1,0 +1,77 @@
+.author-list {
+  .actions {
+    margin-bottom: 1rem;
+  }
+
+  .filters {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .author-info {
+    display: flex;
+    align-items: center;
+  }
+
+  .author-name {
+    margin-left: 1rem;
+  }
+}
+
+.p-dialog {
+  .p-dialog-header {
+    background-color: #4CAF50;
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  .p-dialog-content {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .p-dialog-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 1rem;
+  }
+}
+
+.p-field {
+  margin-bottom: 1rem;
+
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+
+  input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+}
+
+.p-button-success {
+  background-color: #4CAF50;
+  border-color: #4CAF50;
+
+  &:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+  }
+}
+
+.p-button-secondary {
+  background-color: #f44336;
+  border-color: #f44336;
+
+  &:hover {
+    background-color: #e53935;
+    border-color: #e53935;
+  }
+}

@@ -1,13 +1,9 @@
 export class Author {
-  id: number;
-
-  name: string;
-
-  imageUrl: string;
-
-  totalPosts: number;
-
-  totalComments: number;
+  id: number = 0;
+  name: string = '';
+  imageUrl: string = '';
+  totalPosts: number = 0;
+  totalComments: number = 0;
 
   constructor(props?: Partial<Author>) {
     Object.assign(this, props);
