@@ -1,11 +1,7 @@
 export class Article {
-  id: number;
-
-  type: ArticleType;
-
-  title: string;
-
-  createdOn: Date;
+  title?: string;
+  type?: ArticleType;
+  createdOn?: Date;
 
   constructor(props?: Partial<Article>) {
     Object.assign(this, props);
@@ -14,5 +10,5 @@ export class Article {
 
 export enum ArticleType {
   Article = 'ARTICLE',
-  Book = 'BOOK'
+  Book = 'BOOK',
 }
